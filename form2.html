@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Segundo formulario</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<form action="">
+		
+	<div id="formulario">
+        
+                    <div id="name">
+                        <label for="Primer">Enter Your Name</label>
+                        <input type="text" id="Primer" autofocus="" required="Campo vacio" />
+                    </div>
+                    <div id="correo">
+                        <label for="mail">Email address</label>
+                        <input type="email" id="mail" required="Campo vacio" />
+                    </div>
+                    <div id="opciones">
+                        <label for="select">Short Subject</label>
+                        <select name="subject">
+                             <option value="0" selected="1"></option>
+                             <option value="1">Visita</option>
+                             <option value="2">Auditoria</option>
+                             <option value="3">Reunion</option>
+                        </select>
+                    </div>
+                    <div id="mensaje">
+                        <label for="msg">Message to Us</label>
+                        <textarea id="msg" required="Campo vacio"></textarea>
+                    </div>
+        
+                     <button type="submit" value="submit">Send Letter</button>
+    </div>
+
+	</form>
+</body>
+</html>
