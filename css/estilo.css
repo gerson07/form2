@@ -1,0 +1,82 @@
+body {
+	color: #fff;
+	background:#6C6C6C;
+	font-size: 14px;
+    font-family: Lucida Sans Unicode, Lucida Grande, Arial, Helveticam, Verdana;
+}
+
+form div#formulario
+{
+	top:100px;
+	position: relative;
+	left: 500px;
+	width: 40%;
+	border: 4px solid #395F89;
+	background:#3C6899 ;
+}
+form div#formulario div#name, div#correo, div#opciones, div#mensaje
+{
+	margin-top: 10px;
+	height: 30px;
+}
+
+form div#formulario label 
+{
+	float: left;
+	width: 25%;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+form div#formulario input
+{
+	float: right;
+	padding: 5px 3px; 
+    background: #fff;
+    width: 70%;
+    background: #3C6899;
+    outline: none;
+    border: 0;
+    border-bottom: 2px dashed #129B96;
+
+}
+form div#formulario div#opciones select
+{
+	padding: 4px 2px; 
+    background: #fff;
+    width: 385px;
+    float: right;
+    background:#3C6899;
+    outline: none;
+    border: 0;
+    border-bottom: 2px dashed #129B96;
+}
+form div#formulario div#mensaje textarea
+{
+	padding: 4px 2px; 
+    background:#3C6899;
+    width: 378px;
+    height: 20px;
+    float: right;
+    outline: none;
+    border: 0;
+    border-bottom: 2px dashed #129B96;
+}
+form button 
+{ 
+	margin-top: 10px;
+	border-radius: 5px;
+	display: block;
+	padding: 5px 10px;
+	position: relative;
+	left: 154px;
+	background: #395F89;
+    border: 0px solid #000000;
+}
+form button:hover
+{
+	box-shadow: 0 0 5px 1px #7ABCE2;
+	border: 2px solid #7ABCE2;
+
+
+}
